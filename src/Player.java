@@ -43,6 +43,10 @@ public class Player {
         points += newPoints;
     }
 
+    public void addCard(int index, Card card){
+        hand.add(index, card);
+    }
+
     public void addCard(Card card){
         hand.add(card);
     }
