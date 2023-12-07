@@ -18,7 +18,7 @@ public class Card {
         return suit;
     }
 
-    public int getPoint() {
+    public int getPoints() {
         return point;
     }
 

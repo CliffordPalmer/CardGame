@@ -6,6 +6,7 @@ public class Player {
 
     public Player(String name){
         this.name = name;
+        hand = new ArrayList<Card>();
         points = 0;
     }
 
@@ -44,6 +45,10 @@ public class Player {
 
     public void addCard(Card card){
         hand.add(card);
+    }
+
+    public Card removeCard(int index){
+        return hand.remove(index);
     }
 
     public String toString(){
