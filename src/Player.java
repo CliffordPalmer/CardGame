@@ -56,9 +56,10 @@ public class Player {
     }
 
     public String toString(){
-        String str =  name + " has " + points + "\n" + name + "\'s cards:";
+        String str =  name + " has " + hand.size() + " cards" + "\n" + name + "\'s cards:";
         for (Card card : hand){
             str += card.toString();
+            str += ", ";
         }
         return str;
     }
