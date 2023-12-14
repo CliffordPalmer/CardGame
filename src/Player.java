@@ -1,16 +1,16 @@
 import java.util.ArrayList;
 public class Player {
     private String name;
-    private ArrayList<Card> hand;
+    private ArrayList < Card > hand;
     private int points;
 
-    public Player(String name){
+    public Player(String name) {
         this.name = name;
-        hand = new ArrayList<Card>();
+        hand = new ArrayList < Card > ();
         points = 0;
     }
 
-    public Player(String name, ArrayList<Card> hand){
+    public Player(String name, ArrayList < Card > hand) {
         this.name = name;
         this.hand = hand;
     }
@@ -23,11 +23,11 @@ public class Player {
         this.name = name;
     }
 
-    public ArrayList<Card> getHand() {
+    public ArrayList < Card > getHand() {
         return hand;
     }
 
-    public void setHand(ArrayList<Card> hand) {
+    public void setHand(ArrayList < Card > hand) {
         this.hand = hand;
     }
 
@@ -39,25 +39,25 @@ public class Player {
         this.points = points;
     }
 
-    public void addPoints(int newPoints){
+    public void addPoints(int newPoints) {
         points += newPoints;
     }
 
-    public void addCard(int index, Card card){
+    public void addCard(int index, Card card) {
         hand.add(index, card);
     }
 
-    public void addCard(Card card){
+    public void addCard(Card card) {
         hand.add(card);
     }
 
-    public Card removeCard(int index){
+    public Card removeCard(int index) {
         return hand.remove(index);
     }
 
-    public String toString(){
-        String str =  name + " has " + hand.size() + " cards" + "\n" + name + "\'s cards:";
-        for (Card card : hand){
+    public String toString() {
+        String str = name + " has " + hand.size() + " cards" + "\n" + name + "\'s cards:";
+        for (Card card : hand) {
             str += card.toString();
             str += ", ";
         }

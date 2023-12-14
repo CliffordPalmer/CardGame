@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f75c03-87a4-4483-952d-ac79dcc1ae99" name="Changes" comment="Added Card Class">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
@@ -99,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701985500172</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Card Class">
+      <option name="closed" value="true" />
+      <created>1702432279443</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702432279443</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,7 +120,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Game.java</url>
-          <line>113</line>
+          <line>117</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
