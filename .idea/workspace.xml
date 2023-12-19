@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40f75c03-87a4-4483-952d-ac79dcc1ae99" name="Changes" comment="Added Card Class" />
+    <list default="true" id="40f75c03-87a4-4483-952d-ac79dcc1ae99" name="Changes" comment="Finished Game" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,12 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702593797123</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished Game">
+      <option name="closed" value="true" />
+      <created>1702593916226</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702593916226</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Card Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Card Class" />
+    <MESSAGE value="Finished Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
